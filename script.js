@@ -17,3 +17,7 @@ var dateofBirth = 2004;
 console.log(name + "   " + email + "   " + dateofBirth);
 console.log(email);
 console.log(dateofBirth);
+let a = 12;
+let b = 20;
+let result = a + b;
+console.log(" The sum of two number is : " + (a + b));

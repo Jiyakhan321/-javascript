@@ -57,3 +57,13 @@ if(number % 2 == 0){
 else{
     console.log(number, "is a odd number");
 }
+let age = +prompt("Enter your age");
+if (age < 18) {
+    console.log("junior");
+}
+else if(age > 60){
+    console.log("senior");
+}
+else{
+    console.log("middle");
+}

@@ -50,3 +50,10 @@ if (age > 18) {
 else{
     console.log("You are not eligible for voting");
 }
+let number = +prompt("Enter your number");
+if(number % 2 == 0){
+    console.log(number, "is a even number");
+}
+else{
+    console.log(number, "is a odd number");
+}

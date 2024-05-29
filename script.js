@@ -146,4 +146,30 @@ alert(username);
 
 var message = "Hello World";
 alert(message);
+let student = []
+console.log(student);
+
+let studentname = ["Jiya","Hamna","Maryam"]
+console.log(studentname);
+
+let num = [15,16,40,12]
+console.log(num);
+
+let boleanarray = [true,false]
+console.log(boleanarray);
+
+let mixedarray = ["Jiya",21,"True",50,"Karachi"]
+console.log(mixedarray);
+
+const studentName =["hamna","Jaweria","Maryam"];
+const studentScore =[ 389,778,562];
+let total = 800;
+const percentage1 = studentScore[0]/total*100;
+const percentage2 = studentScore[1]/total*100;
+const percentage3 = studentScore[2]/total*100;
+document.write("<p>score of"+" "+ studentName[0]+ " "+ "is "+studentScore[0]+"."+" "+"percentage:" +percentage1+"</p>");
+document.write("<p>score of"+" "+ studentName[1]+ " "+ "is"+" "+studentScore[1]+"."+" "+"percentage:" +percentage2+"</p>");
+document.write("<p>score of"+" "+ studentName[2]+ " "+ "is "+studentScore[2]+"."+" "+"percentage:" +percentage3+"</p>");
+
+
 
